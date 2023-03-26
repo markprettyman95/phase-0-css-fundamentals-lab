@@ -1,5 +1,95 @@
+/* Global styles */
 body {
-  width: 100%;
-  height: 100%;
+  font-family: Arial, sans-serif;
   margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+section {
+  margin: 30px auto;
+  width: 80%;
+  max-width: 1200px;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #eee;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  padding: 10px;
+  background-color: #ccc;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+nav a:last-child {
+  margin-right: 0;
+}
+
+/* Featured property styles */
+#featured-property {
+  text-align: center;
+}
+
+#featured-property figure {
+  margin: 0;
+}
+
+#featured-property img {
+  display: block;
+  margin: 0 auto;
+}
+
+#featured-property figcaption {
+  font-size: 14px;
+  text-align: center;
+}
+
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Details styles */
+#details {
+  overflow: hidden;
+}
+
+#details div {
+  float: left;
+  width: 25%;
+  text-align: center;
+  background-color: #eee;
+  margin: 10px 0;
+}
+
+#details h3 {
+  margin-top: 0;
+}
+
+#details p {
+  margin-bottom: 0;
+  line-height: 1.5;
 }
